@@ -1,0 +1,33 @@
+add_newline = false
+prompt_order = ["username", "kubernetes", "directory", "git_branch", "git_status", "character"]
+
+[character]
+symbol = "❯"
+#style_success = "bold blue"
+use_symbol_for_status = true
+
+[username]
+show_always = true
+
+[kubernetes]
+symbol = "ﴱ "
+style = "bold blue"
+disabled = false
+[kubernetes.context_aliases]
+"kubernetes" = "home-cluster"
+[aws]
+disabled = true
+[git_branch]
+symbol = " "
+[git_status]
+conflicted = " ~ "
+ahead = " ⇡ "
+behind = " ⇣ "
+staged=" + "
+diverged = " ⇕ "
+untracked = " ? "
+stashed = " $ "
+modified = " ! "
+deleted = "  "
+renamed = " ➜ "
+unmerged = " ═ "
