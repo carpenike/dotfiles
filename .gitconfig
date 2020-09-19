@@ -1,0 +1,14 @@
+[user]
+	email = ryan@ryanholt.net
+	name = Ryan Holt
+	signingkey = 0x2CEA90502F6F3637
+[credential]
+	helper = /c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe
+[core]
+	autocrlf = false 
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
+[init]
+	templateDir = /home/ryan/.git-template
